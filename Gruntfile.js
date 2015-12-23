@@ -80,7 +80,7 @@ module.exports = function (grunt) {
 
     // Register the grunt serve task
     grunt.registerTask('serve', [
-           'browserSync',
+        'browserSync',
         'concurrent:serve'
     ]);
 
@@ -91,8 +91,6 @@ module.exports = function (grunt) {
     ]);
 
     // Register build as the default task fallback
-    grunt.registerTask('default', 'build');
+    grunt.registerTask('default', 'serve');
 
 };
-
-// source http://yellowpencil.com/blog/how-to-build-static-site-with-jekyll-grunt-libsass/
