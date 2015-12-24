@@ -25,6 +25,10 @@ module.exports = function (grunt) {
             sass: {
                 files: ['_sass/**/*.{scss,sass}'],
                 tasks: ['sass']
+            },
+            jekyll : {
+                files: ['**/*.{md,html}'],
+                tasks: ['shell:jekyllBuild']
             }
         },
 
