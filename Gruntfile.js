@@ -57,8 +57,8 @@ module.exports = function (grunt) {
             dev: {
                 bsFiles: {
                     src : [
-                        '_site/css/*.css',
-                        '_site/*.html'
+                        '_site/**/*.css',
+                        '_site/**/*.html'
                     ]
                 },
                 options: {
