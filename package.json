@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/NAME/github-project-name",
   "devDependencies": {
+    "grunt": "^1.0.x",
     "grunt-browser-sync": "^2.2.0",
     "grunt-concurrent": "^2.1.0",
     "grunt-contrib-sass": "^0.9.2",
