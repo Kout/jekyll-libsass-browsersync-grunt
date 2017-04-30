@@ -23,5 +23,5 @@ markdown: kramdown
 # Exclude from _site folder
 exclude: ['Gruntfile.js', 'package.json', 'node_modules', '_scss', 'css']
 
-keep_files: ['_site/css']
+keep_files: ['css']
 
